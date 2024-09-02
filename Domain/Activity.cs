@@ -15,7 +15,7 @@ namespace Domain
 
         public string Description {get; set;}
 
-        public string Catergory {get; set;}
+        public string Category {get; set;}
 
         public string City {get; set;}
 
