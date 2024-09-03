@@ -20,8 +20,8 @@ namespace API.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Activity>> GetActivityById() {
-            return await _context.Activities.FindAsync();
+        public async Task<ActionResult<Activity>> GetActivityById(Guid id) {
+            return await _context.Activities.FindAsync(id);
         }
     }
 }
