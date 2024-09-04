@@ -3,8 +3,26 @@
 ##
 ## Get latest from `dotnet new gitignore`
 
-**/bin/
-**/obj/
+# Build klasörleri
+/bin/
+/obj/
+
+# DLL ve PDB dosyaları
+*.dll
+*.pdb
+
+# Diğer geçici dosyalar
+*.exe
+*.cache
+*.nuget.dgspec.json
+*.AssemblyInfoInputs.cache
+*.GeneratedMSBuildEditorConfig.editorconfig
+*.assets.cache
+*.AssemblyReference.cache
+*.genruntimeconfig.cache
+ref/
+refint/
+
 
 # dotenv files
 .env
